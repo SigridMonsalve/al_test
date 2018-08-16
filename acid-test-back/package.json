@@ -1,0 +1,31 @@
+{
+  "name": "acid-test-back",
+  "version": "1.0.0",
+  "description": "Server that will be used as bridge between cryptocurrency API and client dashboard",
+  "main": "index.js",
+  "dependencies": {
+    "@types/angular": "^1.6.48",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/SigridMonsalve/acid-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "redis"
+  ],
+  "author": "Sigrid Monsalve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/SigridMonsalve/acid-server/issues"
+  },
+  "homepage": "https://gitlab.com/SigridMonsalve/acid-server#README"
+}
